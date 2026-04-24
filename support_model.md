@@ -4,8 +4,11 @@
 
 ## 目录
 
+- [Kimi-K2.5](#kimi-k25)
+- [Step-3.5-Flash](#step-35-flash)
 - [GLM-4.7-Flash](#glm-47-flash)
 - [谷歌-Gemma3](#谷歌-gemma3)
+- [MiniMax-M2.5](#minimax-m25)
 - [MiniMax-M2](#minimax-m2)
 - [Qwen3-VL-4B-Instruct](#qwen3-vl-4b-instruct)
 - [BGE-M3](#bge-m3)
@@ -58,12 +61,26 @@
 
 ## 已支持模型列表
 
+### Kimi-K2.5
+
+[Kimi-K2.5](https://huggingface.co/moonshotai/Kimi-K2.5)
+- [x] [Kimi-K2.5 论文解读](./models/Kimi-K2.5/01-Kimi-K2.5-论文解读.md) @樊奇
+- [x] [Kimi-K2.5 vLLM 部署调用及 Docker 镜像](./models/Kimi-K2.5/02-Kimi-2.5-vLLM%20部署调用.md) @谢好冉
+- [x] [Kimi-K2.5 SGLang 部署调用及 Docker 镜像](./models/Kimi-K2.5/03-Kimi-2.5-SGLang部署应用.md) @谭斐然
+
+### Step-3.5-Flash
+
+[Step-3.5-Flash](https://huggingface.co/stepfun-ai/Step-3.5-Flash)
+- [x] [Step-3.5-Flash vLLM 部署调用及 Docker 镜像](./models/Step-3.5-Flash/01-Step-3.5-Flash-vLLM部署教程.md) @郑远婧
+- [x] [Step-3.5-Flash SGLang 部署调用及 Docker 镜像](./models/Step-3.5-Flash/02-Step-3.5-Flash-SGLang.md) @陈辅元
+- [x] Step-3.5-Flash Lora 微调及 Docker 镜像
+
 ### GLM-4.7-Flash
 
 [GLM-4.7-Flash](https://huggingface.co/zai-org/GLM-4.7-Flash)
-- [ ] GLM-4.7-Flash vLLM 部署调用及 Docker 镜像
-- [ ] GLM-4.7-Flash SGLang 部署调用及 Docker 镜像
-- [ ] GLM-4.7-Flash Lora 微调及 Docker 镜像
+- [x] [GLM-4.7-Flash vLLM 部署调用及 Docker 镜像](./models/GLM-4.7-Flash/01-GLM-4.7-Flash-vLLM%20部署调用.md) @谢好冉
+- [x] [GLM-4.7-Flash SGLang 部署调用及 Docker 镜像](./models/GLM-4.7-Flash/02-GLM-4.7-Flash%20SGLang%20部署调用.md) @三水
+- [x] [GLM-4.7-Flash Lora 微调及 Docker 镜像](./models/GLM-4.7-Flash/03-GLM-4.7-Flash-Lora微调及Docker镜像.md) @余洋
 
 ### 谷歌-Gemma3
 
@@ -74,6 +91,16 @@
 - [x] [gemma-2b-it Peft Lora 微调 ](./models/Gemma/04-Gemma-2B-Instruct%20Lora微调.md) @陈榆
 - [X] [gemma3-4b-it AMD 环境准备](./models/Gemma3/7-gemma3-4b-it%20AMD环境准备.md) @陈榆
 - [X] [gemma3-4b-it AMD 模型服务部署](./models/Gemma3/8-gemma3-4b-it%20模型服务部署.md) @陈榆
+
+### MiniMax-M2.5
+
+[MiniMax-M2.5](https://github.com/MiniMax-AI/MiniMax-M2.5)
+- [x] [MiniMax-M2.5 在线体验地址](https://agent.minimax.io/)
+- [x] [MiniMax-M2.5 Hugging Face 地址](https://huggingface.co/MiniMaxAI/MiniMax-M2.5)
+- [x] [MiniMax-M2.5 Text Generation Guide](https://platform.minimax.io/docs/guides/text-generation)
+- [x] [MiniMax-M2.5 vLLM 部署调用](./models/MiniMax-M2.5/1-MiniMax-M2.5-vLLM.md)
+- [x] [MiniMax-M2.5 SGLang 部署调用](./models/MiniMax-M2.5/2-MiniMax-M2.5-SGLang.md)
+- [x] [MiniMax-M2.5 Transformers 部署调用](./models/MiniMax-M2.5/3-MiniMax-M2.5-Transformers.md)
 
 ### MiniMax-M2
 
